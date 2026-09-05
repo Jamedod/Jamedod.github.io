@@ -1,0 +1,14 @@
+IMAGE CREDITS
+=============
+
+All graphics on this site (avatar.svg, hero-editor.svg) are original
+vector illustrations created by the site author specifically for this
+portfolio. They are not taken from any other website or third party.
+
+No photographs from external sources are used on this site.
+
+If you replace either graphic with a real photo (e.g. a professional
+headshot) that you did not take/create yourself, add a credit line here
+in the format:
+
+  filename.jpg - Source: [website/URL] - Author: [name] - License: [type]

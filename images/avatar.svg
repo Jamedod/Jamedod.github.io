@@ -1,0 +1,14 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="avTitle avDesc">
+  <title id="avTitle">Monogram avatar</title>
+  <desc id="avDesc">A circular monogram with the initials H and A on a dark background with a thin green ring, in an editor-inspired colour palette.</desc>
+  <defs>
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a6e3a1"/>
+      <stop offset="100%" stop-color="#89b4fa"/>
+    </linearGradient>
+  </defs>
+  <circle cx="120" cy="120" r="112" fill="#181825" stroke="url(#ringGrad)" stroke-width="4"/>
+  <circle cx="120" cy="120" r="96" fill="#1e1e2e"/>
+  <text x="120" y="145" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="84" font-weight="700" text-anchor="middle" fill="#cdd6f4">HA</text>
+  <text x="120" y="185" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="14" text-anchor="middle" fill="#a6e3a1">&lt;/dev&gt;</text>
+</svg>
