@@ -566,6 +566,12 @@ select:focus {
   font-family: var(--font-mono);
 }
 
+.footer-nav + .footer-nav {
+  margin-top: -0.4rem;
+  padding-top: 0.75rem;
+  border-top: 1px dashed var(--border);
+}
+
 /* -------------------- Reduced motion -------------------- */
 @media (prefers-reduced-motion: reduce) {
   * {
