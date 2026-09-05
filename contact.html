@@ -40,6 +40,8 @@
         </div>
         <p class="lede">Whether it's about a job, a project, or just to talk about code — here's how to reach me.</p>
 
+        <p id="sent-banner" class="card" style="display:none; border-color: var(--green); color: var(--green);">Thanks — your message was sent. I'll get back to you soon.</p>
+
         <div class="contact-grid">
           <div class="card">
             <h3>Contact details</h3>
@@ -65,7 +67,12 @@
 
           <div class="card">
             <h3>Send a message</h3>
-            <form action="#" method="post">
+            <form action="https://formsubmit.co/htootayzaraungkp@gmail.com" method="POST">
+              <input type="hidden" name="_subject" value="New message from your portfolio site">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_next" value="https://jamedod.github.io/contact.html?sent=true">
+              <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+
               <div>
                 <label for="name">Name <span class="required" aria-hidden="true">*</span></label>
                 <input type="text" id="name" name="name" required autocomplete="name">
@@ -88,7 +95,7 @@
                 <textarea id="message" name="message" rows="5" required></textarea>
               </div>
               <button type="submit" class="button">Send message</button>
-              <p class="form-note">This form is a static demo for coursework and does not actually send anywhere yet — use the email link above for now.</p>
+              <p class="form-note">Messages are delivered straight to my inbox via FormSubmit.</p>
             </form>
           </div>
         </div>
@@ -104,9 +111,19 @@
         <li><a href="experience.html">experience.html</a></li>
         <li><a href="contact.html">contact.html</a></li>
       </ul>
+      <ul class="footer-nav">
+        <li><a href="https://github.com/Jamedod" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/jame-dod-7391b43a3/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+      </ul>
       <p>Reach me at <a href="mailto:htootayzaraungkp@gmail.com">htootayzaraungkp@gmail.com</a></p>
-      <p>&copy; 2026 Htoo Tay Zar Aung. Built for INFO1217. All illustrations are original.</p>
+      <p>&copy; 2026 Htoo Tay Zar Aung. Built with HTML, CSS &amp; JavaScript.</p>
     </div>
   </footer>
+
+  <script>
+    if (new URLSearchParams(window.location.search).get('sent') === 'true') {
+      document.getElementById('sent-banner').style.display = 'block';
+    }
+  </script>
 </body>
 </html>
